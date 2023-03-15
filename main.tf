@@ -17,7 +17,7 @@ resource "azurerm_resource_group" "rg" {
   location = "West Europe"
 }
 
-resource "kubernetes_namespace" "example" {
+resource "kubernetes_namespace" "ns_monitoracao" {
   count = var.enable_grafana || var.enable_prometheus ? 1 : 0
 
   metadata {
