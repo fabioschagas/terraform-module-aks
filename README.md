@@ -9,7 +9,7 @@ Modulo desenvolvido para facilitar a criação de clusters de AKS com Grafana e 
 
 | Versão do Modulo | Versão Terraform | Versão AzureRM |
 |----------------|-------------------| --------------- |
-| >= 1.x.x       | >= 0.15.4 | >= 3.16.0         |
+| >= 0.0.2       | >= 1.0.x | >= 3.16.0         |
 
 
 ## Pré-requisitos
